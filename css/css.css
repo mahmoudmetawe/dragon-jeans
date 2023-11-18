@@ -1,0 +1,54 @@
+:root{
+--basic:rgb(204, 203, 203);
+--dark-color:#053378;
+
+
+}
+body{
+    
+}
+
+.header .navbar .logo {
+    height: 90px;
+    width: 300px;
+    
+
+
+}
+.navbar{
+ background-color: var(--dark-color);
+ 
+}
+.navbar a{
+    color: white;
+    font-weight: 500;
+    font-size: larger;
+
+}
+
+footer{
+    background-color:var(--dark-color);
+    color: white;
+    height: fit-content;
+    
+
+}
+
+footer .container .pharos{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    display: grid;
+    align-items: center;
+}
+
+form{
+    border: 2px solid var(--dark-color);
+
+}
+.general{
+    height:130vh;
+}
+
+  
+
