@@ -1,40 +1,34 @@
-:root{
---basic:rgb(204, 203, 203);
---dark-color:#053378;
+:root {
+    --basic: rgb(204, 203, 203);
+    --dark-color: #053378;
 
 
 }
-body{
-    
-}
+
+body {}
 
 .header .navbar .logo {
     height: 90px;
     width: 300px;
-    
-
-
 }
-.navbar{
- background-color: var(--dark-color);
- 
+
+.navbar {
+    background-color: var(--dark-color);
 }
-.navbar a{
+
+.navbar a {
     color: white;
     font-weight: 500;
     font-size: larger;
-
 }
 
-footer{
-    background-color:var(--dark-color);
+footer {
+    background-color: var(--dark-color);
     color: white;
     height: fit-content;
-    
-
 }
 
-footer .container .pharos{
+footer .container .pharos {
     width: 100px;
     height: 100px;
     border-radius: 20px;
@@ -42,13 +36,29 @@ footer .container .pharos{
     align-items: center;
 }
 
-form{
+form {
     border: 2px solid var(--dark-color);
-
-}
-.general{
-    height:130vh;
 }
 
-  
+.general {
+    height: 180vh;
+}
 
+.pic {
+    animation: xxxx 5s linear 10 ,5ms linear linear;
+
+    
+
+
+}
+
+@keyframes xxxx {
+    form {
+        left: 0%;
+    }
+
+    to {
+        left: 100%;
+    }
+
+}
