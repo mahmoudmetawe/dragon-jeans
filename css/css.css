@@ -5,8 +5,6 @@
 
 }
 
-body {}
-
 .header .navbar .logo {
     height: 90px;
     width: 300px;
@@ -22,6 +20,9 @@ body {}
     font-size: larger;
 }
 
+
+/* footer............................................................................ */
+
 footer {
     background-color: var(--dark-color);
     color: white;
@@ -36,18 +37,25 @@ footer .container .pharos {
     align-items: center;
 }
 
+footer .link ul {
+    list-style: none;
+}
+
+/*end footer .............................................................................*/
+
+/*
 form {
     border: 2px solid var(--dark-color);
-}
+}*/
 
 .general {
     height: 180vh;
 }
 
 .pic {
-    animation: xxxx 5s linear 10 ,5ms linear linear;
+    animation: xxxx 5s linear 10, 5ms linear linear;
 
-    
+
 
 
 }
@@ -61,4 +69,8 @@ form {
         left: 100%;
     }
 
+}
+
+input::placeholder{
+    text-align: center;
 }
