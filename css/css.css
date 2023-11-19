@@ -43,34 +43,38 @@ footer .link ul {
 
 /*end footer .............................................................................*/
 
-/*
-form {
+
+.form {
     border: 2px solid var(--dark-color);
-}*/
+}
 
 .general {
     height: 180vh;
 }
 
-.pic {
-    animation: xxxx 5s linear 10, 5ms linear linear;
-
+.general .home1 .container .row{
+    
+    animation: xxxx 5s linear 1, 5ms linear linear;
+    
 
 
 
 }
 
 @keyframes xxxx {
-    form {
-        left: 0%;
+    from {
+        
+        grid-column-gap: 0px;
     }
 
     to {
-        left: 100%;
+    
+        grid-column-gap: 100px;
     }
+
 
 }
 
-input::placeholder{
+input::placeholder {
     text-align: center;
 }

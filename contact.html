@@ -20,7 +20,7 @@
   <script src="js/all.min.js"></script>
 
 
-  <<!--start navbar-->
+  <!--start navbar-->
     <nav class="navbar navbar-expand-lg  sticky-top">
       <div class="container-fluid ">
         <a class="navbar-brand fw-bold text-uppercase " href="home.html">pharos</a>
@@ -50,28 +50,30 @@
       <section class="Home mt-5  text-center">
         <div class="container">
           <div class="row">
-            <div class="pic col  ">
+            <div class="pic col-sm-12 col-md-12 col-lg-6  ">
               <img class="img-fluid" src="done.jpg" alt="">
             </div>
-            <div class="content col">
 
-              <!--start reg-->
+
+            <!--start reg-->
+            <div class="form col-sm-12 col-md-12 col-lg-6 shadow-lg p-3 bg-body-tertiary rounded">
               <form >
                 <div class="row g-3 text-start">
-                <label class="col-sm-2" for="fs" class="form-label">first name </label>
-                <input class="col-sm-4" type="text" id="fs" class="form-control " placeholder=" first name">
+                  <label class="col-sm-2" for="fs" class="form-label">first name </label>
+                  <input class="col-sm-4" type="text" id="fs" class="form-control " placeholder=" first name">
 
-                <label class="col-sm-2" for="ls" class="form-label">last name </label>
-                <input class="col-sm-4" type="text" id="ls" class="form-control " placeholder=" last name ">
+                  <label class="col-sm-2" for="ls" class="form-label">last name </label>
+                  <input class="col-sm-4" type="text" id="ls" class="form-control " placeholder=" last name ">
 
-                <label class="col-sm-2" for="email" class="form-label">email </label>
-                <input class="col-sm-4" type="text" id="email" class="form-control " placeholder=" email">
+                  <label class="col-sm-2" for="email" class="form-label">email </label>
+                  <input class="col-sm-4" type="text" id="email" class="form-control " placeholder=" email">
 
-                <label class="col-sm-2" for="password" class="form-label">password </label>
-                <input class="col-sm-4" type="password" id="password" class="form-control " placeholder=" your password">
+                  <label class="col-sm-2" for="password" class="form-label">password </label>
+                  <input class="col-sm-4" type="password" id="password" class="form-control "
+                    placeholder=" your password">
 
-                <label class="col-sm-12" for="note" class="form-label">ملاحظات  </label>
-                <input class="col-sm-12 " style="height: 200px;" type="text" id="note" class="form-control " placeholder=" اكتب ملاحظاتك هنا ">
+                  <label class="col-sm-12" for="note" class="form-label">ملاحظات </label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">اكتب ملاحظاتك هنا </textarea>
                 </div>
 
                 <a class="btn btn-danger btn-rounded col-sm-12 " href="#" style="width: 100px;">submit</a>
