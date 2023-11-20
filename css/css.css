@@ -49,10 +49,10 @@ footer .link ul {
 }
 
 .general {
-    height: 180vh;
+    height: auto;
 }
 
-.general .home1 .container .row{
+.general .home .container {
     
     animation: xxxx 5s linear 1, 5ms linear linear;
     
